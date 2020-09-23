@@ -76,6 +76,7 @@ async def Search(config, init):
         ('src', 'unkn'),
         ('include_available_features', '1'),
         ('include_entities', '1'),
+        ('f','live'),
         #('max_position', str(init)),
         ('reset_error_state', 'false'),
         ('prefetchTimestamp', str(int(time.time() * 1000)))
