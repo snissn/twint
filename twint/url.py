@@ -83,8 +83,8 @@ async def Search(config, init):
     ]
     if init != '-1':
         url += init
-    if not config.Popular_tweets:
-        params.append(('f', 'tweets'))
+#    if not config.Popular_tweets:
+#        params.append(('f', 'tweets'))
     if config.Lang:
         params.append(("l", config.Lang))
         params.append(("lang", "en"))
